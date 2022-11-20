@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "Ories，合约接口库都可以",
+			"custom:xxxx": "自定义的描述: 这个是实验的测试合约",
+			"details": "告诉开发者干什么: 提供了存储方法/获取方法 ，用于开发者",
+			"kind": "dev",
+			"methods": {
+				"get()": {
+					"details": "检索状态变量 storedData 的值",
+					"returns": {
+						"_0": "储存值 ，对函数返回变量的描述"
+					}
+				},
+				"set(uint256)": {
+					"details": "将数字存储在状态变量 storedData 中",
+					"params": {
+						"_x": ": storedData 将要修改的值，用于方法，状态变量，错误都可以。"
+					}
+				}
+			},
+			"title": "用来干什么: 一个简单的数据存储演示，用在合约接口和库都可以",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"get()": {
+					"notice": "返回存储的值"
+				},
+				"set(uint256)": {
+					"notice": "储存 x"
+				}
+			},
+			"notice": "告诉用户干什么: 您只能将此合约用于最基本的演示，用于状态变量，函数，方法等都可以",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"demo01-03.sol": "TinyStorage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"demo01-03.sol": {
+			"keccak256": "0xd6882b07e92c91753376b3b33315cd1de9a72aedf210f7a29a2d6a2033d6135e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://386b44d45954de1718b33988fbbfcafd8b8927864ba0d7d4194426e8fcd95d62",
+				"dweb:/ipfs/QmSF8uzUttotdpLtr9EXJ4YcoA1AG6BLmzDMaWJvzEWV3g"
+			]
+		}
+	},
+	"version": 1
+}
